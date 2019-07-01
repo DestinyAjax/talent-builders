@@ -1,0 +1,93 @@
+@import "./_global";
+
+.footer {
+    @extend %generic;
+    @include screen('small'){
+        margin-top: 5rem
+    }
+
+
+
+    .accordion {
+        @media screen and (min-width: 459px) {
+            display: none;
+        }.card{border: none}
+        .card-header{
+border: none;background:transparent;
+            h5{text-transform: capitalize;text-align: center}
+        }
+        a{text-align: center}
+    }
+
+    p {
+        font-size: 14px;
+    }
+
+    .top, .bottom {
+        position: relative;
+        align-items: flex-start;
+
+        @extend %after-border;
+
+        &::after {
+            width: calc(100% - 4%);
+            bottom: -5rem;
+        }
+
+        min-width: 100%;
+        display: grid;
+        justify-items: flex-start;
+        justify-content: center;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 190px));
+        grid-gap: 5rem;
+
+        .columns {
+            h5 {
+                text-transform: uppercase;
+                line-height: 25px;
+                font-size: 14px;
+            }
+
+            a {
+                margin: 1rem 0;
+            }
+
+            &:nth-child(5) {
+                width: 190px;
+
+                div {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .bottom {
+        margin-bottom: 3rem;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+
+        @include screen("small") {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 2rem 0;
+
+            .columns:not(:nth-child(1)) {
+                display: none;
+            }
+        }
+
+
+        &::after {
+            display: none;
+        }
+
+        margin-top: 10rem;
+    }
+     @media screen and (max-width: 458px) {
+        .top{
+            display: none;
+        }
+
+    }
+}

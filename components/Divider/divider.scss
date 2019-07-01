@@ -1,0 +1,191 @@
+@media screen and (min-width: 601px) {
+    .divider-small {
+        border-left: 2px solid #BDBDBD;;
+        height: 330px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .divider-large {
+        border-left: 2px solid #BDBDBD;;
+        height: 470px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .or-div-large {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 51%;
+        top: 67%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    .or-div-small {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 51%;
+        top: 52%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .divider {
+        display: none;
+    }
+
+    .or-div {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+        display: inline-block;
+        text-align: center;
+    }
+}
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait) {
+    .divider-small {
+        border-left: 2px solid #BDBDBD;;
+        height: 330px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .divider-small {
+        border-left: 2px solid #BDBDBD;;
+        height: 430px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .or-div-small {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 49%;
+        top: 41%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    .or-div-large {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 49%;
+        top: 54%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 1366px) and (orientation:portrait) {
+    .divider-small {
+        border-left: 2px solid #BDBDBD;;
+        height: 330px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .divider-large {
+        border-left: 2px solid #BDBDBD;;
+        height: 430px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .or-div-small {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 50%;
+        top: 30%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+
+    .or-div-large {
+        font-family: Coco Gothic;
+        font-size: 18px;
+        line-height: 120%;
+        position: absolute;
+        width: 36px;
+        left: 50%;
+        top: 40%;
+        letter-spacing: 0.03em;
+        color: #BDBDBD;
+        padding: 20px;
+        background-color: white;
+        border-radius: 30px;
+    }
+}
+
+@media all and (device-width: 1024px) and (device-height: 768px) and (orientation:landscape) {
+    .divider-small {
+        border-left: 2px solid #BDBDBD;;
+        height: 330px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .divider-large {
+        border-left: 2px solid #BDBDBD;;
+        height: 430px;
+        position: absolute;
+        left: 53%;
+        margin-left: -3px;
+        top: 50;
+    }
+
+    .or-div {
+        display: none;
+    }
+}
